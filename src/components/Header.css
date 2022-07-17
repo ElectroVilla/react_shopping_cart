@@ -1,0 +1,25 @@
+.header-nav {
+  position: sticky;
+  box-shadow: 0px 10px 20px #ccc;
+  margin-bottom: 10px;
+}
+.header-ul {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.header-h2 {
+  font-family: monospace;
+  font-size: 30px;
+}
+.logout-btn {
+  padding: 10px;
+  background-color: #f44336;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.logout-btn:hover {
+  background-color: #ff0000;
+}
